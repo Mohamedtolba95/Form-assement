@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel="stylesheet" href="Style.css" >
+</head>
+
+<body>
+    <!-- form assesment -->
+    <!-- Header -->
+    <div style="background-color:rgb(255, 69, 69);">
+        <h1 style="color:white ;">JobSearch.com</h1>
+    </div>
+    <!-- sub header -->
+    <div>
+        <h2>Create your account</h2>
+    </div>
+
+    <div>
+        <h4>Requird information*</h4>
+    </div>
+    <!-- basic information card -->
+    <div style="background-color: rgb(235, 235, 235);">
+
+        <div style="background-color: rgb(162, 162, 162);">
+            <h3>Basic information</h3>
+        </div>
+
+        <table>
+            <form>
+                <tr>
+                    <td>
+                        <label for="email">Email*</label>
+                    </td>
+                    <td>
+                        <input required type="email" name="email" id="email">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="Password">Password*</label>
+                    </td>
+                    <td>
+                        <input required type="Password" name="Password" id="Password">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="Retype Password">Retype Password*</label>
+                    </td>
+                    <td>
+                        <input required type="password" name="Retype Password" id="Retype Password">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="firstname">Firstname*</label>
+                    </td>
+                    <td>
+                        <input required type="text" name="firstname" id="firstname">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="lastname">Lastname*</label>
+                    </td>
+                    <td>
+                        <input required type="text" name="lastname" id="lastname">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="address">address*</label>
+                    </td>
+                    <td>
+                        <input required type="text" name="address" id="address">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="Province">Province</label>
+                    </td>
+                    <td>
+                        <select id="Province">
+                            <option value="x">Alberta</option>
+                            <option value="x">Egypt</option>
+                            <option value="x">Africa</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="City">City*</label>
+                    </td>
+                    <td>
+                        <input required type="text" name="City" id="City">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="Province">Province*</label>
+                    </td>
+                    <td>
+                        <input required type="text" name="Province" id="Province">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="Country">Country*</label>
+                    </td>
+                    <td>
+                        <input required type="text" name="Country" id="Country">
+                    </td>
+                </tr>
+            </form>
+        </table>
+    </div>
+    <!-- Education information card -->
+    <div style="background-color: rgb(235, 235, 235);">
+        <div style="background-color: rgb(162, 162, 162);">
+            <h3>Eductaion information</h3>
+        </div>
+
+        <table>
+            <form>
+                <tr>
+                    <td>
+                        <label for="school">school*</label>
+                    </td>
+                    <td>
+                        <input required type="text" name="school" id="school">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="Program">Program*</label>
+                    </td>
+                    <td>
+                        <input required type="text" name="Program" id="Program">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="EducationLevel">Education Level *</label>
+                    </td>
+                    <td>
+                        <select name="level" id="EducationLevel">
+                            <option>level 1</option>
+                            <option>level 2</option>
+                            <option>level 3</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        choose status
+                    </td>
+                    <td>
+                        <fieldset style="width: 300px; ;">
+                            <legend>Education status</legend>
+
+                            <input required type="radio" name="Graduated" id="Graduated" value="Graduated">
+                            <label for="Graduated">Graduated</label>
+                            <br>
+
+                            <input required type="radio" name="Current Enrolled" id="Current Enrolled"
+                                value="Current Enrolled">
+                            <label for="Graduated">Current Enrolled</label>
+                            <br>
+
+                            <input required type="radio" name="Did Not Graduate" id="Did Not Graduate"
+                                value="Did Not Graduate">
+                            <label for="Did Not Graduate">Did Not Graduate</label>
+                            <br>
+                        </fieldset>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <label for="Graduation date">Graduation date</label>
+                    </td>
+                    <td>
+                        <input required type="date" name="Graduation date" id="Graduation date">
+                    </td>
+                </tr>
+            </form>
+        </table>
+    </div>
+
+        <!-- work experience -->
+        <div style="background-color: rgb(235, 235, 235);">
+
+            <div style="background-color: rgb(162, 162, 162);">
+                <h3>Work experience</h3>
+            </div>
+
+            <table>
+                <form>
+                    <tr>
+                        <td>
+                            <label for="Employer:">Employer:</label>
+                        </td>
+                        <td>
+                            <input required type="text" name="Employer:" id="Employer:">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="Job Title:">Job Title:</label>
+                        </td>
+                        <td>
+                            <input required type="text" name="Job Title:" id="Job Title:">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="Job Duty">Job Duty</label>
+                        </td>
+                        <td>
+                            <textarea name="Job Duty" id="Job Duty" cols="21" rows="10"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="worked year">worked year</label>
+                        </td>
+                        <td>
+                            <input type="number" name="worked year" id="worked year" />
+                        </td>
+                    </tr>
+                </form>
+            </table>
+        </div>
+
+        <!-- Attachments -->
+        <div style="background-color: rgb(235, 235, 235);">
+
+            <div style="background-color: rgb(162, 162, 162);">
+                <h3>Work experience</h3>
+            </div>
+            <div>
+                <table>
+                    <form>
+                        <tr>
+                            <td>
+                                <label for="Attachments">Attachments:</label>
+                            </td>
+                            <td>
+                                <input required type="file" name="Attachments" id="Attachments">
+                            </td>
+                        </tr>
+                    </form>
+                </table>
+            </div>
+        </div>
+        <br>
+
+
+        <div style="background-color: rgb(255, 255, 255);">
+            <div>
+                <input style="background-color:red; color: aliceblue;" type="reset" />
+                <button style="background-color:red; color: aliceblue;">apply</button>
+            </div>
+
+        </div>
